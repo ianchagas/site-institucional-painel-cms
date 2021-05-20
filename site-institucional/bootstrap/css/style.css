@@ -1,0 +1,223 @@
+.navbar-brand {
+    font-size: 23px;
+}
+
+.box {
+    position: relative;
+    top: 30px;
+}
+
+section.banner {
+    padding: 200px 0;
+    position: relative;
+    min-height: 607px;
+    background-image: url('../images/bg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+section.banner > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.overlay {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(15,15,15,0.5);
+}
+
+.chamada-banner h2 {
+    color: #26A599;
+    font-size: 40px;
+}
+
+.chamada-banner p {
+    color: white;
+    margin: 25px 0;
+}
+
+
+.chamada-banner a {
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    padding: 8px 18px;
+    background: #26A599;
+    background-position: center;
+}
+
+section.cadastro-lead {
+    background: #26A69A;
+    padding: 15px 0;
+}
+
+section.cadastro-lead h2 {
+    color:white;
+    font-size: 25px;
+}
+
+section.cadastro-lead form {
+    position: relative;
+    top: 15px;
+}
+
+section.cadastro-lead input[type=text]{
+    padding-left: 8px;
+    width: 85%;
+    height: 40px;
+    border: 2px solid #dddddd;
+    margin-bottom: 5px;
+}
+
+section.cadastro-lead input[type=submit]{
+    width: 15%;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+section.depoimentos {
+    padding: 40px 0;
+}
+
+section.depoimentos h2 {
+    color: #4b4b4b;
+}
+
+section.depoimentos blockquote {
+    color: #4b4b4b;
+    font-size: 15px;
+}
+
+section.diferenciais {
+    padding: 20px 0;
+    background: rgb(225,225,225);
+}
+
+section.diferenciais > h2 {
+    color: #4b4b4b;
+}
+
+.diferenciais-container {
+    margin-top: 20px;
+}
+
+.diferenciais-container h3 {
+    color: #26A599;
+}
+
+.diferenciais-container h2 {
+    font-size: 22px;
+}
+
+.equipe-container {
+    padding-top: 30px 0;
+    padding-bottom: 30px 0;
+}
+
+.equipe-single {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    box-shadow: 8px 7px 5px -3px rgba(20,20,20,0.6);
+    margin-bottom: 15px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+section.equipe h2 {
+    margin: 0px;
+    text-align: center;
+    padding: 10px 0;
+    background: #26A69A;
+    color:white;
+}
+
+.user-picture {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.user-picture-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.user-picture-child img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+
+
+section.final-site {
+    padding: 30px 0;
+    border-top: 2px solid #ccc;
+    color: #4b4b4b;
+    border-bottom: 2px solid #ccc;
+}
+
+section.final-site textarea {
+    height: 120px;
+}
+
+section.final-site h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 26px;
+}
+
+footer {
+    background: rgb(225,225,225);
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .user-picture {
+        width: 50%;
+        padding-top: 50%;
+        position: relative;
+    }
+
+    section.cadastro-lead form {
+        position: relative;
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .chamada-banner h2 {
+        color: #26A599;
+        font-size: 35px;
+    }
+    section.cadastro-lead input[type=submit] {
+        width: 150px;
+        margin-top: 4px;
+        display: inline-block;
+    }
+}
